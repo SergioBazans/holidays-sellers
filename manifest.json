@@ -19,8 +19,15 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "httpstat.us",
-        "path": "*"
+        "host": "*.myvtex.com",
+        "path": "/api/logistics/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "*.myvtex.com",
+        "path": "/api/catalog/*"
       }
     },
     {
@@ -28,6 +35,12 @@
     },
     {
       "name": "colossus-write-logs"
+    },
+    {
+      "name": "view-seller"
+    },
+    {
+      "name": "LogisticsViewer"
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

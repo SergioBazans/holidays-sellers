@@ -9,6 +9,10 @@
     "status": {
       "path": "/_v/status/:code",
       "public": true
+    },
+    "holidaySeller": {
+      "path": "/_v/holiday-seller",
+      "public": true
     }
   }
 }
